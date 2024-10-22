@@ -1,0 +1,22 @@
+# Ignore obj and bin folders
+.vs/
+.vs
+
+
+obj/
+bin/
+PublishProfiles/
+
+.vs/
+.vs
+
+*.log
+.log
+*.dll
+.dll
+*.pdb
+*.cache
+*.nupkg
+*.[Pp]ublish.xml
+*.pubxml
+*.publishproj
