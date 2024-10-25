@@ -10,21 +10,32 @@ namespace WebAPITest.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly ICategoryService _categoryService; 
-        public CategoryController(ICategoryService categoryService) 
+        private readonly ICategoryService _categoryService;
+        public CategoryController(ICategoryService categoryService)
         {
             this._categoryService = categoryService;
         }
 
-       
+        /// <summary>
+        /// Add category
+        /// </summary>
+        /// <param name="category">Category</param>
+        /// <returns></returns>
         [HttpPost]
-        public CommonResult<bool> AddCategory(Category category)
+        public CommonResult<Category> AddCategory(Category category)
         {
-            bool result= this._categoryService.Add(category);
-
-
-            return new CommonResult<bool>() { IsSucess = result };
+            var result = this._categoryService.Add(category);
+            return new CommonResult<Category>() { IsSucess = true, Result = result };
         }
+
+
+        [HttpGet]
+        public CommonResult<List<Category>> GetCategory()
+        {
+            var result = this._categoryService.GetCategories();
+            return new CommonResult<List<Category>>() { IsSucess = true, Result = result };
+        }
+
 
     }
 }

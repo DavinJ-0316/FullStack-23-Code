@@ -4,6 +4,9 @@ namespace WebAPITest.IService
 {
     public interface ICourseService
     {
-        bool Add(Course course);
+        bool AddCourse(Course course);
+        List<Course> GetCourse();
+
+        Task<Course> UpdateCourseAsync(Course course);
     }
 }

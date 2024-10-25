@@ -15,6 +15,7 @@ namespace WebAPITest.Service
         {
             try
             {
+                //非参数化查询，没有用using
                 //MySqlConnection mySqlConnection = new MySqlConnection(connection);
                 //mySqlConnection.Open();
 
@@ -49,7 +50,7 @@ namespace WebAPITest.Service
                 //    }
                 //}
 
-
+                //防止sql 注入，用了using--correct
                 using (MySqlConnection mySqlConnection = new MySqlConnection(connection))
                 {
                     mySqlConnection.Open();
@@ -76,6 +77,7 @@ namespace WebAPITest.Service
             return true;
         }
 
+        //第一种
         //public List<User> GetAll()
         //{
         //    List<User> users = new List<User>();
@@ -110,7 +112,7 @@ namespace WebAPITest.Service
         //    return users;
         //}
 
-
+        //第二种
         //public List<User> GetAll()
         //{
         //    List<User> users = new List<User>();
@@ -124,7 +126,7 @@ namespace WebAPITest.Service
         //            var rd = mySqlCommand.ExecuteReader();
         //            DataTable dt = new DataTable();
         //            dt.Load(rd);//load in memory
-        //            rd.Close();
+        //            //rd.Close();
         //            foreach (DataRow dr in dt.Rows)
         //            {
         //                User user = new User();
@@ -140,6 +142,7 @@ namespace WebAPITest.Service
         //    return users;
         //}
 
+        //第三种
         public List<User> GetAll()
         {
             List<User> users = new List<User>();
@@ -175,6 +178,11 @@ namespace WebAPITest.Service
 
             return Convert.ToString(obj);
 
+        }
+
+        public Task<UserEF> GetUserByNameAsync(string username)
+        {
+            throw new NotImplementedException();
         }
     }
 }

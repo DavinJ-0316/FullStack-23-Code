@@ -15,7 +15,7 @@ namespace WebAPITest.Filters
                 Detail = context.Exception.Message,
                 Timestamp = DateTime.UtcNow
             };
-
+  
             // 设置返回的响应状态码和内容
             context.Result = new JsonResult(errorResponse)
             {

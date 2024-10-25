@@ -8,5 +8,7 @@ namespace WebAPITest.IService
 
         List<User> GetAll();
 
+        Task<UserEF> GetUserByNameAsync(string username);
+
     }
 }

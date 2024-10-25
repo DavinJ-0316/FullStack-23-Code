@@ -36,14 +36,55 @@ namespace WebAPITest.Controllers
         private readonly UserService _userService1;
         private readonly UserService _userService2;
         private readonly TeacherService _teacherService;
+        private readonly IUserService _iUserServicedb;
 
-        private readonly IUserService _iUserService;
-        public UserController(UserService userService1, UserService userService2, TeacherService teacherService,IUserService iuserService)
+        //private readonly IUserService _iUserService;
+        //public UserController(UserService userService1, UserService userService2, TeacherService teacherService, 
+        //    IUserService iuserService, IUserService iUserServicedb)
+        //{
+        //    _userService1 = userService1;
+        //    _userService2 = userService2;
+        //    _teacherService = teacherService;
+        //    _iUserService = iuserService;
+        //    _iUserServicedb = iUserServicedb;
+        //}
+
+        public UserController(UserService userService1, TeacherService teacherService)
         {
             _userService1 = userService1;
-            _userService2 = userService2;
             _teacherService = teacherService;
-            _iUserService = iuserService;
+        }
+
+        [HttpGet]
+        public IActionResult TestTransitandScopeDI()
+        {
+            // 获取第一个 UserService 实例
+            var user1 = _userService1.GetUserByName("lily");
+
+            // 获取 TeacherService，并通过它再次使用 UserService
+            var userFromTeacherService = _teacherService.GetUser("tom");
+
+            return Ok(new
+            {
+                UserService1 = user1,
+                UserFromTeacherService = userFromTeacherService
+            });
+        }
+
+        [HttpGet]
+        public IActionResult TestSingletonDI()
+        {
+            // 获取第一个 UserService 实例
+            var user1 = _userService1.GetUserByName("lily");
+
+            // 获取 TeacherService，并通过它再次使用 UserService
+            var userFromTeacherService = _teacherService.GetUser("tom");
+
+            return Ok(new
+            {
+                UserService1 = user1,
+                UserFromTeacherService = userFromTeacherService
+            });
         }
 
         [HttpGet]
@@ -93,22 +134,22 @@ namespace WebAPITest.Controllers
 
 
         //连接数据库
-        //[HttpPost]
-        //public CommonResult<bool> AddUserDb(User user)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var isSuccess = this._userServiceDB.Insert(user);
-        //        return new CommonResult<bool>() { IsSucess = isSuccess };
-        //    }
-        //    return new CommonResult<bool>() { IsSucess = false,Message="model validation failed" };
-        //}
-
-        public CommonResult<List<User>> GetUserfromDB()
+        [HttpPost]
+        public CommonResult<bool> AddUserDb(User user)
         {
-           var user=this._iUserService.GetAll();
-            return new CommonResult<List<User>>() { IsSucess = true, Message = "", Result = user };
+            if (ModelState.IsValid)
+            {
+                var isSuccess = this._iUserServicedb.Insert(user);
+                return new CommonResult<bool>() { IsSucess = isSuccess };
+            }
+            return new CommonResult<bool>() { IsSucess = false, Message = "model validation failed" };
         }
+
+        //public CommonResult<List<User>> GetUserfromDB()
+        //{
+        //   var user=this._iUserService.GetAll();
+        //    return new CommonResult<List<User>>() { IsSucess = true, Message = "", Result = user };
+        //}
 
         #region advance DI 的应用
 

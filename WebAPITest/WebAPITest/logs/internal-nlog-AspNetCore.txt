@@ -1,0 +1,431 @@
+2024-10-21 00:51:55.3617 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-21 00:51:55.3685 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-21 00:51:55.3685 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-21 00:51:55.3685 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-21 00:51:55.3902 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-21 00:51:55.3902 Info Configuration initialized.
+2024-10-21 00:58:21.8610 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-21 00:58:21.8694 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-21 00:58:21.8694 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-21 00:58:21.8694 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-21 00:58:21.8942 Info Validating config: TargetNames=allfile, ConfigItems=50, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-21 00:58:21.8942 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-21 00:58:21.8942 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: lifetimeConsole
+2024-10-21 00:58:21.8942 Info Configuration initialized.
+2024-10-21 00:58:32.1112 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-21 00:58:32.1166 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-21 00:58:32.1166 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-21 00:58:32.1166 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-21 00:58:32.1761 Info Validating config: TargetNames=allfile, ConfigItems=50, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-21 00:58:32.1761 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-21 00:58:32.1761 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: lifetimeConsole
+2024-10-21 00:58:32.1761 Info Configuration initialized.
+2024-10-21 22:56:00.4446 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-21 22:56:00.4662 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-21 22:56:00.4662 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-21 22:56:00.4869 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-21 22:56:00.4907 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-21 22:56:00.4907 Info Configuration initialized.
+2024-10-21 22:58:52.3467 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-21 22:58:52.3531 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-21 22:58:52.3531 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-21 22:58:52.3736 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-21 22:58:52.3736 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-21 22:58:52.3834 Info Configuration initialized.
+2024-10-21 23:40:43.8931 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-21 23:40:43.9023 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-21 23:40:43.9023 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-21 23:40:43.9233 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-21 23:40:43.9233 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-21 23:40:43.9233 Info Configuration initialized.
+2024-10-22 00:33:47.3298 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 00:33:47.3361 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 00:33:47.3361 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 00:33:47.3550 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 00:33:47.3550 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 00:33:47.3550 Info Configuration initialized.
+2024-10-22 00:36:35.5185 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 00:36:35.5270 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 00:36:35.5270 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 00:36:35.5486 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 00:36:35.5486 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 00:36:35.5565 Info Configuration initialized.
+2024-10-22 00:38:45.6173 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 00:38:45.6258 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 00:38:45.6258 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 00:38:45.6476 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 00:38:45.6476 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 00:38:45.6476 Info Configuration initialized.
+2024-10-22 00:40:37.7169 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 00:40:37.7169 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 00:40:37.7260 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 00:40:37.7260 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 00:40:37.7444 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 00:40:37.7444 Info Configuration initialized.
+2024-10-22 00:41:09.8215 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 00:41:09.8291 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 00:41:09.8291 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 00:41:09.8543 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 00:41:09.8543 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 00:41:09.8688 Info Configuration initialized.
+2024-10-22 00:42:34.8607 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 00:42:34.8693 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 00:42:34.8693 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 00:42:34.8895 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 00:42:34.8895 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 00:42:34.8975 Info Configuration initialized.
+2024-10-22 22:55:41.1358 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 22:55:41.1576 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 22:55:41.1576 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 22:55:41.1786 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 22:55:41.1786 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 22:55:41.1786 Info Configuration initialized.
+2024-10-22 22:57:49.9977 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 22:57:49.9977 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 22:57:50.0061 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 22:57:50.0061 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 22:57:50.0244 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 22:57:50.0244 Info Configuration initialized.
+2024-10-22 23:00:52.5958 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:00:52.6049 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:00:52.6049 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:00:52.6283 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:00:52.6283 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:00:52.6364 Info Configuration initialized.
+2024-10-22 23:09:06.8972 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:09:06.9143 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:09:06.9175 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:09:06.9335 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:09:06.9335 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:09:06.9335 Info Configuration initialized.
+2024-10-22 23:16:22.6718 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:16:22.6793 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:16:22.6793 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:16:22.6984 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:16:22.7016 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:16:22.7016 Info Configuration initialized.
+2024-10-22 23:22:45.0475 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:22:45.0538 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:22:45.0538 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:22:45.0719 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:22:45.0719 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:22:45.0808 Info Configuration initialized.
+2024-10-22 23:50:15.6745 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:50:15.6745 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:50:15.6822 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:50:15.6822 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:50:15.6822 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:50:15.6822 Info Configuration initialized.
+2024-10-22 23:50:15.7936 Info Shutdown() called. Logger closing...
+2024-10-22 23:50:15.7936 Info Closing old configuration.
+2024-10-22 23:50:15.7936 Info Logger has been closed down.
+2024-10-22 23:50:16.0613 Info AppDomain Shutting down. LogFactory closing...
+2024-10-22 23:50:16.0613 Info LogFactory has been closed.
+2024-10-22 23:51:55.5376 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:51:55.5421 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:51:55.5421 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:51:55.5421 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:51:55.5421 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:51:55.5567 Info Configuration initialized.
+2024-10-22 23:51:55.6396 Info Shutdown() called. Logger closing...
+2024-10-22 23:51:55.6396 Info Closing old configuration.
+2024-10-22 23:51:55.6520 Info Logger has been closed down.
+2024-10-22 23:51:56.3567 Info AppDomain Shutting down. LogFactory closing...
+2024-10-22 23:51:56.3567 Info LogFactory has been closed.
+2024-10-22 23:52:04.4294 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:52:04.4345 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:52:04.4345 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:52:04.4345 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:52:04.4345 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:52:04.4497 Info Configuration initialized.
+2024-10-22 23:52:04.5415 Info Shutdown() called. Logger closing...
+2024-10-22 23:52:04.5415 Info Closing old configuration.
+2024-10-22 23:52:04.5415 Info Logger has been closed down.
+2024-10-22 23:52:05.8831 Info AppDomain Shutting down. LogFactory closing...
+2024-10-22 23:52:05.8831 Info LogFactory has been closed.
+2024-10-22 23:53:16.2251 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:53:16.2304 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:53:16.2304 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:53:16.2304 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:53:16.2304 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:53:16.2461 Info Configuration initialized.
+2024-10-22 23:53:16.3300 Info Shutdown() called. Logger closing...
+2024-10-22 23:53:16.3300 Info Closing old configuration.
+2024-10-22 23:53:16.3418 Info Logger has been closed down.
+2024-10-22 23:53:17.6795 Info AppDomain Shutting down. LogFactory closing...
+2024-10-22 23:53:17.6795 Info LogFactory has been closed.
+2024-10-22 23:54:22.7132 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-22 23:54:22.7176 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-22 23:54:22.7176 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-22 23:54:22.7176 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-22 23:54:22.7176 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-22 23:54:22.7316 Info Configuration initialized.
+2024-10-22 23:54:22.8252 Info Shutdown() called. Logger closing...
+2024-10-22 23:54:22.8252 Info Closing old configuration.
+2024-10-22 23:54:22.8252 Info Logger has been closed down.
+2024-10-22 23:54:25.7412 Info AppDomain Shutting down. LogFactory closing...
+2024-10-22 23:54:25.7412 Info LogFactory has been closed.
+2024-10-23 00:00:55.2601 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:00:55.2644 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:00:55.2644 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:00:55.2644 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:00:55.2644 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:00:55.2794 Info Configuration initialized.
+2024-10-23 00:00:55.3627 Info Shutdown() called. Logger closing...
+2024-10-23 00:00:55.3627 Info Closing old configuration.
+2024-10-23 00:00:55.3766 Info Logger has been closed down.
+2024-10-23 00:00:55.9766 Info AppDomain Shutting down. LogFactory closing...
+2024-10-23 00:00:55.9766 Info LogFactory has been closed.
+2024-10-23 00:01:02.8341 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:01:02.8341 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:01:02.8417 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:01:02.8417 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:01:02.8417 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:01:02.8417 Info Configuration initialized.
+2024-10-23 00:01:02.9403 Info Shutdown() called. Logger closing...
+2024-10-23 00:01:02.9403 Info Closing old configuration.
+2024-10-23 00:01:02.9548 Info Logger has been closed down.
+2024-10-23 00:01:09.8372 Info AppDomain Shutting down. LogFactory closing...
+2024-10-23 00:01:09.8372 Info LogFactory has been closed.
+2024-10-23 00:11:46.0679 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:11:46.0679 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:11:46.0679 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:11:46.0911 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:11:46.0911 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:11:46.0989 Info Configuration initialized.
+2024-10-23 00:21:26.4969 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:21:26.4969 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:21:26.5040 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:21:26.5040 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:21:26.5040 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:21:26.5040 Info Configuration initialized.
+2024-10-23 00:21:26.5997 Info Shutdown() called. Logger closing...
+2024-10-23 00:21:26.5997 Info Closing old configuration.
+2024-10-23 00:21:26.5997 Info Logger has been closed down.
+2024-10-23 00:21:27.2283 Info AppDomain Shutting down. LogFactory closing...
+2024-10-23 00:21:27.2283 Info LogFactory has been closed.
+2024-10-23 00:21:32.3745 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:21:32.3789 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:21:32.3789 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:21:32.3789 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:21:32.3789 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:21:32.3945 Info Configuration initialized.
+2024-10-23 00:21:32.4779 Info Shutdown() called. Logger closing...
+2024-10-23 00:21:32.4779 Info Closing old configuration.
+2024-10-23 00:21:32.4910 Info Logger has been closed down.
+2024-10-23 00:21:33.1666 Info AppDomain Shutting down. LogFactory closing...
+2024-10-23 00:21:33.1666 Info LogFactory has been closed.
+2024-10-23 00:26:40.9441 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:26:40.9500 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:26:40.9500 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:26:40.9715 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:26:40.9747 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:26:40.9747 Info Configuration initialized.
+2024-10-23 00:39:52.9613 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:39:52.9674 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:39:52.9674 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:39:52.9897 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:39:52.9897 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:39:52.9981 Info Configuration initialized.
+2024-10-23 00:40:27.0053 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:40:27.0107 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:40:27.0107 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:40:27.0273 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:40:27.0273 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:40:27.0273 Info Configuration initialized.
+2024-10-23 00:41:27.1217 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:41:27.1272 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:41:27.1272 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:41:27.1458 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:41:27.1458 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:41:27.1548 Info Configuration initialized.
+2024-10-23 00:42:45.4989 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:42:45.5037 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:42:45.5037 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:42:45.5229 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:42:45.5288 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:42:45.5288 Info Configuration initialized.
+2024-10-23 00:45:16.6362 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:45:16.6440 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:45:16.6440 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:45:16.6642 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:45:16.6688 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:45:16.6688 Info Configuration initialized.
+2024-10-23 00:45:49.1037 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:45:49.1095 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:45:49.1095 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:45:49.1271 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:45:49.1271 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:45:49.1271 Info Configuration initialized.
+2024-10-23 00:46:09.0697 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:46:09.0755 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:46:09.0755 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:46:09.0957 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:46:09.0957 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:46:09.0957 Info Configuration initialized.
+2024-10-23 00:46:55.2255 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:46:55.2255 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:46:55.2335 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:46:55.2490 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:46:55.2490 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:46:55.2490 Info Configuration initialized.
+2024-10-23 00:49:34.4385 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:49:34.4442 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:49:34.4442 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:49:34.4621 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:49:34.4621 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:49:34.4715 Info Configuration initialized.
+2024-10-23 00:50:56.8634 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:50:56.8759 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:50:56.8759 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:50:56.9005 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:50:56.9005 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:50:56.9096 Info Configuration initialized.
+2024-10-23 00:53:10.9237 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 00:53:10.9295 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 00:53:10.9295 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 00:53:10.9494 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 00:53:10.9538 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 00:53:10.9538 Info Configuration initialized.
+2024-10-23 01:01:12.0627 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 01:01:12.0681 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 01:01:12.0681 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 01:01:12.0858 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 01:01:12.0858 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 01:01:12.0858 Info Configuration initialized.
+2024-10-23 12:16:41.1199 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 12:16:41.1369 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 12:16:41.1369 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 12:16:41.1543 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:16:41.1543 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 12:16:41.1639 Info Configuration initialized.
+2024-10-23 12:16:41.5264 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:25:21.0748 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 12:25:21.0808 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 12:25:21.0808 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 12:25:21.0981 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:25:21.1010 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 12:25:21.1010 Info Configuration initialized.
+2024-10-23 12:25:21.3771 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:29:04.0919 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 12:29:04.0919 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 12:29:04.0919 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 12:29:04.1143 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:29:04.1173 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 12:29:04.1173 Info Configuration initialized.
+2024-10-23 12:29:09.1684 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:38:29.8601 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 12:38:29.8658 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 12:38:29.8658 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 12:38:29.8827 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 12:38:29.8827 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 12:38:29.8827 Info Configuration initialized.
+2024-10-23 12:38:32.8042 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 13:18:20.4852 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 13:18:20.4852 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 13:18:20.4945 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 13:18:20.5097 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 13:18:20.5097 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 13:18:20.5097 Info Configuration initialized.
+2024-10-23 13:18:23.1084 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 13:40:14.4485 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 13:40:14.4541 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 13:40:14.4541 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 13:40:14.4717 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 13:40:14.4717 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 13:40:14.4789 Info Configuration initialized.
+2024-10-23 13:40:16.8532 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 19:59:29.2650 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 19:59:29.2706 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 19:59:29.2706 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 19:59:29.2706 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 19:59:29.2825 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 19:59:29.2825 Info Configuration initialized.
+2024-10-23 19:59:29.3736 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 19:59:29.3905 Info Shutdown() called. Logger closing...
+2024-10-23 19:59:29.3905 Info Closing old configuration.
+2024-10-23 19:59:29.3905 Info Logger has been closed down.
+2024-10-23 19:59:59.0061 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 19:59:59.0061 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 19:59:59.0061 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 19:59:59.0206 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 19:59:59.0206 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 19:59:59.0206 Info Configuration initialized.
+2024-10-23 19:59:59.1094 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 19:59:59.1274 Info Shutdown() called. Logger closing...
+2024-10-23 19:59:59.1274 Info Closing old configuration.
+2024-10-23 19:59:59.1274 Info Logger has been closed down.
+2024-10-23 21:21:13.9396 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 21:21:13.9491 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 21:21:13.9526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 21:21:13.9715 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 21:21:13.9715 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 21:21:13.9830 Info Configuration initialized.
+2024-10-23 21:21:59.7419 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 21:26:45.7048 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 21:26:45.7107 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 21:26:45.7107 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 21:26:45.7297 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 21:26:45.7330 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 21:26:45.7330 Info Configuration initialized.
+2024-10-23 21:26:47.7905 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:42:43.0304 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 23:42:43.0357 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 23:42:43.0357 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 23:42:43.0357 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:42:43.0488 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 23:42:43.0488 Info Configuration initialized.
+2024-10-23 23:42:43.1334 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:42:43.1450 Info Shutdown() called. Logger closing...
+2024-10-23 23:42:43.1450 Info Closing old configuration.
+2024-10-23 23:42:43.1573 Info Logger has been closed down.
+2024-10-23 23:43:48.2434 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 23:43:48.2434 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 23:43:48.2511 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 23:43:48.2511 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:43:48.2511 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 23:43:48.2511 Info Configuration initialized.
+2024-10-23 23:43:48.3388 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:43:48.3505 Info Shutdown() called. Logger closing...
+2024-10-23 23:43:48.3505 Info Closing old configuration.
+2024-10-23 23:43:48.3627 Info Logger has been closed down.
+2024-10-23 23:46:35.9864 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 23:46:35.9864 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 23:46:35.9864 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 23:46:35.9864 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:46:36.0035 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 23:46:36.0035 Info Configuration initialized.
+2024-10-23 23:46:36.0895 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:46:36.1006 Info Shutdown() called. Logger closing...
+2024-10-23 23:46:36.1006 Info Closing old configuration.
+2024-10-23 23:46:36.1140 Info Logger has been closed down.
+2024-10-23 23:46:44.7213 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 23:46:44.7213 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 23:46:44.7213 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 23:46:44.7213 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:46:44.7376 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 23:46:44.7376 Info Configuration initialized.
+2024-10-23 23:46:44.8172 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:46:44.8352 Info Shutdown() called. Logger closing...
+2024-10-23 23:46:44.8352 Info Closing old configuration.
+2024-10-23 23:46:44.8352 Info Logger has been closed down.
+2024-10-23 23:49:38.0123 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 23:49:38.0123 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 23:49:38.0193 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 23:49:38.0193 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:49:38.0193 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 23:49:38.0324 Info Configuration initialized.
+2024-10-23 23:49:38.1096 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:49:38.1282 Info Shutdown() called. Logger closing...
+2024-10-23 23:49:38.1282 Info Closing old configuration.
+2024-10-23 23:49:38.1282 Info Logger has been closed down.
+2024-10-23 23:49:46.6372 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-23 23:49:46.6420 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-23 23:49:46.6420 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-23 23:49:46.6420 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:49:46.6420 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-23 23:49:46.6420 Info Configuration initialized.
+2024-10-23 23:49:46.7298 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\source\repos\WebAPITest\WebAPITest\bin\Debug\net8.0\nlog.config
+2024-10-23 23:49:46.7403 Info Shutdown() called. Logger closing...
+2024-10-23 23:49:46.7403 Info Closing old configuration.
+2024-10-23 23:49:46.7529 Info Logger has been closed down.
