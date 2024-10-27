@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2024-10-27_22-09-21" tag="">
+  <assembly name="Library.API">
+    <class name="Library.API.ApplicationSettings" coveredlines="0" coverablelines="1" totallines="12" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Library.API.Config.DBConnectionConfig" coveredlines="0" coverablelines="2" totallines="8" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Library.API.Config.MockSetting" coveredlines="0" coverablelines="2" totallines="8" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Library.API.Controllers.BooksController" coveredlines="30" coverablelines="30" totallines="73" coveredbranches="6" totalbranches="6" coveredcodeelements="5" totalcodeelements="5" />
+    <class name="Library.API.Controllers.ComplexProductController" coveredlines="23" coverablelines="30" totallines="71" coveredbranches="6" totalbranches="8" coveredcodeelements="5" totalcodeelements="6" />
+    <class name="Library.API.Controllers.SimpleProductController" coveredlines="31" coverablelines="33" totallines="72" coveredbranches="3" totalbranches="4" coveredcodeelements="7" totalcodeelements="7" />
+    <class name="Library.API.Data.Blog" coveredlines="1" coverablelines="4" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="4" />
+    <class name="Library.API.Data.BloggingContext" coveredlines="0" coverablelines="2" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Library.API.Data.Models.Book" coveredlines="4" coverablelines="4" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="Library.API.Data.Models.FakeProduct" coveredlines="1" coverablelines="7" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="7" />
+    <class name="Library.API.Data.Models.Product" coveredlines="3" coverablelines="3" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Library.API.Data.Models.ProductRate" coveredlines="1" coverablelines="2" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="2" />
+    <class name="Library.API.Data.Post" coveredlines="0" coverablelines="5" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="Library.API.OtherConfigs" coveredlines="0" coverablelines="1" totallines="12" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Library.API.Program" coveredlines="0" coverablelines="9" totallines="21" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="Library.API.Services.BlogService" coveredlines="15" coverablelines="27" totallines="53" coveredbranches="2" totalbranches="2" coveredcodeelements="3" totalcodeelements="5" />
+    <class name="Library.API.Services.BookService" coveredlines="54" coverablelines="54" totallines="74" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="5" />
+    <class name="Library.API.Services.ProductService" coveredlines="4" coverablelines="55" totallines="116" coveredbranches="0" totalbranches="8" coveredcodeelements="2" totalcodeelements="9" />
+    <class name="Library.API.Startup" coveredlines="0" coverablelines="33" totallines="81" coveredbranches="0" totalbranches="4" coveredcodeelements="0" totalcodeelements="4" />
+  </assembly>
+</coverage>
