@@ -10,5 +10,7 @@ namespace Assignment003.IServices
         bool UpdateUsers(User user);
 
         bool DeleteUser(int id);
+
+        User GetUserbyUserName(string userName);
     }
 }

@@ -19,6 +19,7 @@ namespace Assignment003.Controllers
             this._uerService = uerService;
         }
 
+       
         [HttpPost]
         public CommonResult AddUser(AddUserInput input)
         {

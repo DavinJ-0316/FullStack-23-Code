@@ -5,8 +5,13 @@ using System.Text;
 
 namespace Assignment003.Filters
 {
-    public class ActionFilter :IActionFilter
+    public class ActionFilter : IActionFilter
     {
+        private readonly ILogger<ActionFilter> _logger;
+        public ActionFilter(ILogger<ActionFilter> logger)
+        {
+            this._logger = logger;
+        }
         public void OnActionExecuted(ActionExecutedContext context)
         {
 

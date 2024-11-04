@@ -10,10 +10,12 @@ namespace Assignment003.Services
 {
     public class UserService : IUerService
     {
+        private readonly MoocDBContext _moocDBContext;
         private DBConnectionConfig dBConnectionConfig;
-        public UserService(IOptions<DBConnectionConfig> options)
+        public UserService(IOptions<DBConnectionConfig> options, MoocDBContext moocDBContext)
         {
             this.dBConnectionConfig = options.Value;
+            this._moocDBContext = moocDBContext;
         }
         public bool AddUser(User user)
         {
@@ -124,5 +126,11 @@ namespace Assignment003.Services
             }
         }
 
+        public User GetUserbyUserName(string userName)
+        {
+          var user= this._moocDBContext.Users.FirstOrDefault(x => x.UserName == userName);
+            return user;
+        }
+        
     }
 }
