@@ -1,0 +1,12 @@
+2024-10-31 15:02:22.9322 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-10-31 15:02:22.9497 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-31 15:02:22.9578 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-31 15:02:22.9723 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\davin\Desktop\JR-23\Lily\DavinAssignement5\DavinAssignement3\NLog.config
+2024-10-31 15:02:22.9723 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-10-31 15:02:22.9902 Info Configuration initialized.
+2024-11-01 00:44:27.1846 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-11-01 00:44:27.1951 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-11-01 00:44:27.2015 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-11-01 00:44:27.2015 Info Validating config: TargetNames=allfile, ConfigItems=47, FilePath=C:\Users\jiang\Desktop\学生代码\DavinAssignement6\DavinAssignement6\DavinAssignement3\NLog.config
+2024-11-01 00:44:27.2178 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2024-11-01 00:44:27.2178 Info Configuration initialized.

@@ -1,0 +1,560 @@
+{
+	"info": {
+		"_postman_id": "9cddb6c7-7671-45ad-b451-f7697ba747e0",
+		"name": "Assignment6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10535745"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "get user",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/user/getuserinfo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"user",
+								"getuserinfo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserName\": \"ajicnq99999\",\r\n    \"Email\": \"Giant@email.com\",\r\n    \"Address\": \"Australia\",\r\n    \"Gender\": 0,\r\n    \"Password\": \"654321\",\r\n    \"Phone\": \"0478963356\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/user/updateUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"user",
+								"updateUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5079/api/user/DeleteUser?email=Giant100yeahahh@email.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"user",
+								"DeleteUser"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "Giant100yeahahh@email.com"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login & Register",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"Giantyeaahh\",\r\n    \"email\": \"Giant100yeahahh@email.com\",\r\n    \"address\": \"Australia\",\r\n    \"gender\": 1,\r\n    \"password\": \"123456\",\r\n    \"phone\": \"0478963356\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register from form",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "userName",
+									"value": "Form2",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "Form2@mail.com",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123565",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "0412125523",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "Australia",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/user/registerFromForm",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"user",
+								"registerFromForm"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"email\": \"Giant@email.com\",\r\n     \"password\": \"654321\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Course",
+			"item": [
+				{
+					"name": "get all courses have categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5079/api/course/getallcourseswithcategories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"course",
+								"getallcourseswithcategories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all courses ignore category",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5079/api/course/getallcourses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"course",
+								"getallcourses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add course",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CourseName\": \"ART101\",\r\n    \"Description\": \"Basic arts\",\r\n    \"CategoryId\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/course/AddCourse",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"course",
+								"AddCourse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update course",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"CourseName\": \"ART101\",\r\n    \"Description\": \"Basic arts\",\r\n    \"CategoryId\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/course/UpdateCourse",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"course",
+								"UpdateCourse"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "get all categories ignore courses",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5079/api/catgory/getallcategories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"catgory",
+								"getallcategories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add category",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CategoryName\": \"Arts test\",\r\n    \"CategoryLevel\": \"2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/catgory/addcategory",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"catgory",
+								"addcategory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all categories have courses",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5079/api/catgory/getallcategorieswithcourses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"catgory",
+								"getallcategorieswithcourses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update category",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"categoryName\": \"Information Technology 1\",\r\n    \"categoryLevel\": \"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5079/api/catgory/updatecategory",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5079",
+							"path": [
+								"api",
+								"catgory",
+								"updatecategory"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5251/api/course/GetCourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5251",
+					"path": [
+						"api",
+						"course",
+						"GetCourse"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
