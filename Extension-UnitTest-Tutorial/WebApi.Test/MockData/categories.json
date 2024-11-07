@@ -1,0 +1,233 @@
+[
+  {
+    "Id": 1,
+    "CategoryName": "Electronics",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 2,
+        "CategoryName": "Computers",
+        "CategoryLevel": "2",
+        "ParentId": 1,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 3,
+        "CategoryName": "Mobile Phones",
+        "CategoryLevel": "2",
+        "ParentId": 1,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": [
+      {
+        "CourseName": "C Sharp",
+        "Description": "Learning C#",
+        "CategoryId":  1
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "CategoryName": "Books",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 5,
+        "CategoryName": "Fiction",
+        "CategoryLevel": "2",
+        "ParentId": 4,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 6,
+        "CategoryName": "Non-Fiction",
+        "CategoryLevel": "2",
+        "ParentId": 4,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 7,
+    "CategoryName": "Clothing",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 8,
+        "CategoryName": "Men's Wear",
+        "CategoryLevel": "2",
+        "ParentId": 7,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 9,
+        "CategoryName": "Women's Wear",
+        "CategoryLevel": "2",
+        "ParentId": 7,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 10,
+    "CategoryName": "Home Appliances",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 11,
+        "CategoryName": "Kitchen Appliances",
+        "CategoryLevel": "2",
+        "ParentId": 10,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 12,
+        "CategoryName": "Living Room Appliances",
+        "CategoryLevel": "2",
+        "ParentId": 10,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 13,
+    "CategoryName": "Sports",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 14,
+        "CategoryName": "Outdoor Sports",
+        "CategoryLevel": "2",
+        "ParentId": 13,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 15,
+        "CategoryName": "Indoor Sports",
+        "CategoryLevel": "2",
+        "ParentId": 13,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 16,
+    "CategoryName": "Toys",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 17,
+        "CategoryName": "Action Figures",
+        "CategoryLevel": "2",
+        "ParentId": 16,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 18,
+        "CategoryName": "Board Games",
+        "CategoryLevel": "2",
+        "ParentId": 16,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 19,
+    "CategoryName": "Beauty Products",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 20,
+        "CategoryName": "Skincare",
+        "CategoryLevel": "2",
+        "ParentId": 19,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 21,
+        "CategoryName": "Makeup",
+        "CategoryLevel": "2",
+        "ParentId": 19,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 22,
+    "CategoryName": "Groceries",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 23,
+        "CategoryName": "Fruits",
+        "CategoryLevel": "2",
+        "ParentId": 22,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 24,
+        "CategoryName": "Vegetables",
+        "CategoryLevel": "2",
+        "ParentId": 22,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  },
+  {
+    "Id": 25,
+    "CategoryName": "Health & Wellness",
+    "CategoryLevel": "1",
+    "ParentId": null,
+    "SubCategories": [
+      {
+        "Id": 26,
+        "CategoryName": "Fitness",
+        "CategoryLevel": "2",
+        "ParentId": 25,
+        "SubCategories": [],
+        "Courses": []
+      },
+      {
+        "Id": 27,
+        "CategoryName": "Nutrition",
+        "CategoryLevel": "2",
+        "ParentId": 25,
+        "SubCategories": [],
+        "Courses": []
+      }
+    ],
+    "Courses": []
+  }
+]
