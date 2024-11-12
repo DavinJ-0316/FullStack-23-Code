@@ -1,0 +1,5 @@
+﻿1. 安装 Microsoft.EntityFrameworkCore.Tools
+2. 安装 Microsoft.EntityFrameworkCore.SqlServer
+3. 安装 Microsoft.EntityFrameworkCore
+4. 在package manager console 执行 add-migration InitialSchoolDB，它会生成对应的 InitialSchoolDB的代码， 改代码从0开始创建数据库 及其表结构
+5. 在package manager console 执行 update-database -verbose， 会看到数据库的创建过程 并使用SQL Server Management Studio 查看生成的数据库
